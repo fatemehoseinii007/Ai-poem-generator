@@ -1,0 +1,45 @@
+:root{
+    --background-color:#fff;
+    --firstColor:#F5EEF8;
+    --sec-color:#8E44AD;
+    --third-color:#7D3C98;
+    --forth-color:#4A235A;
+}
+
+body{
+    background-color: var(--firstColor);
+}
+
+.container{
+    max-width: 50%;
+    margin: 120px auto;
+    display: block;
+}
+
+header{
+    background-color: var(--background-color);
+    margin-bottom: 1rem;
+    padding: 0.2rem 0 1rem 1rem;
+    color: var(--forth-color);
+}
+
+
+.txt-input{
+    border: 0;
+    width: 20rem;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    outline-color: var(--sec-color);
+}
+
+.btn-input{
+    border-radius: 1.5rem;
+    outline-color: var(--sec-color);
+    width: 7rem;
+    height: 3rem;
+    padding: 0.5rem;
+    background-color: var(--third-color);
+    font-weight: bold;
+    box-shadow: 4px -4px 3px 0px grey;
+}
