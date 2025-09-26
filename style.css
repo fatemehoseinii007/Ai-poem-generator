@@ -67,3 +67,7 @@ footer{
 footer a{
     color: var(--fif-color);
 }
+
+#poem strong{
+    color: #4A235A;
+}
