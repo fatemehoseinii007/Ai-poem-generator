@@ -51,10 +51,11 @@ main{
     background-color: var(--background-color);
     height: auto;
     margin-top: 5rem;
+    padding: 0.5rem 0 0.5rem 0;
+    border-left:5px solid var(--sec-color);
 }
 
 main div{
-    border-left:5px solid var(--sec-color);
     padding-left: 15px;
     font-size: 20px;
     line-height: 1.5rem;
@@ -70,4 +71,17 @@ footer a{
 
 #poem strong{
     color: #4A235A;
+}
+
+small{
+    color: darkgray;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+#third-header {
+  animation: blink 1s step-start 0s infinite;
 }
